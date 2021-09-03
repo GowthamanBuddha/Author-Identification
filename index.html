@@ -1,0 +1,51 @@
+<html>
+<head>
+  <title>  
+    Author Identification
+  </title>
+  <style>
+     body {
+        background-image: url("https://seosherpa.com/wp-content/uploads/2016/08/seo-humor-header-420.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+  </style>
+</head>
+
+<body>
+<img width=170em src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Sona_College_of_Teachnology.jpg" style="position: relative;margin-top: 0em;margin-right: 63em;">
+<div align="center">
+<h1 >Author Identification
+</br>
+<br>
+<br>
+<form action='/author_identification' method="post">
+<label style="font-size:25px">Type Of Search : </label
+>
+<select style="font-size:20px" name="search">
+  <option Selected="true" disabled="disabled">--select--</option>
+  <option>Predict</option>
+  <option>Find By Book Name</option>
+  <option>Find By Quotes</option>
+</select>
+<br>
+<br>
+<br>
+<label style="font-size:25px">Enter the Text: </label
+>
+<input type='text' name='name' style="font-size:20px">
+<br>
+<br>
+<button style="background-color:red; color:white; font-size:20px">Submit</button>
+</div>
+</form>
+
+
+<div align="center" style="font-size:25px">
+Author Name: {{author}}
+</div>
+</body>
+</html>
+
+
